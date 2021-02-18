@@ -8,6 +8,11 @@ public class Kiralynok {
         System.out.println("Ez a negyedik feladatnak a megvalósítása:");
         Tabla tabla=new Tabla('#');
         tabla.megjelenit();
+        
+        //6. feladat:
+        System.out.println("Ez a a hatodik feladatnak a megvalósítása");
+        tabla.elhelyez(8);
+        tabla.megjelenit();
     }
     
 }
